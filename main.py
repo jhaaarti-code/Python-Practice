@@ -63,3 +63,127 @@ print(a[1],a[-3])
 
 a = "SHER CODER"
 print(a[0:4:1])
+print(a[5::1])
+
+#type conversion
+a = 12
+a = str(a)
+print(type(a))
+
+a = 12
+a = int (a)
+print(type(a))
+
+a = 10
+print(bool(a))
+
+a = "Hello"
+print(bool(a))
+
+a = 0
+print(bool(a))
+
+#implicit
+a = 12
+print(a/4)
+
+name = "Aarti"
+age = "20"
+print(name,age)
+print("hello my name is", name , "and my age is", age )
+#or
+print(f"my name is{name} and my age is {age}")
+#input
+#name = input("what is your name")
+#print(name)
+#print(type(name))
+
+ # accept number from a user
+
+#number = input ("give me a number")
+#print(number)
+
+# accept age from the user and print it
+
+#age = input("give me an age")
+#print (age)
+
+# operators
+
+a = 12
+b = 20
+print(a+b)
+print(b-a)
+print(a*b)
+
+a = 5
+b = 20
+print(b/a)
+print(b//a) # floor value
+
+a = 5
+b = 32
+print(b/a)
+print(b//a)
+
+# exponential
+print(5**2)
+
+#modulo
+print(32%5)
+
+# python follows BODMAS rule
+
+# assignment operators
+
+#a = 12
+ 
+ # compound asignment operations
+ 
+t = 20
+
+t = t + 20
+
+t = t + 40
+print (t)
+
+# or
+
+t = 20
+
+t += 20
+
+t += 40
+print(t)
+# a-=
+# a*=
+# a/=
+# a//=
+# a**=
+
+# comparison operators
+
+a = 12
+b = 12
+
+print(a==b)
+
+print(a!=b)
+
+print(a>b)
+
+print(a<b)
+
+print(45<67)
+
+print(23>=23)
+
+print(45<=45)
+
+# Unicode
+
+print(ord("A"))
+print(ord("a"))
+
+print("A">"B")
+ 
