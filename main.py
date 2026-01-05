@@ -327,6 +327,158 @@
 # else:
 #     print("Very Hot")
 
+# For loop
+#range(s,s,s) s - start , s - stop , s - step
+
+# For loop
+
+# a = range (1,21,1)
+# for i in a:
+#     print(i)
+    
+#     # or
+    
+# for i in range (1,21,1):
+#     print(i)
+    
+#     # or
+    
+# for i in range (21):
+#     print(i)
+    
+# 20 - 50
+
+# for i in range (20,51,1):
+#     print(i)
+    
+# # 16 - 1
+
+# for i in range (16,0,-1):
+#     print(i)
+    
+# # -5 - -15
+
+# for i in range (-5,-16,-1):
+#     print(i)
+    
+# # lets print a table of 5
+
+# for i in range (5,51,5):
+#     print(i)
+    
+# # lets print a table of 7
+
+# for i in range (7,71,7):
+#     print(i)
+    
+# n = int(input("which table you want ? "))
+
+# for i in range (n, (n*10)+1, n):
+#     print(i)
+
+# a = "AARTI"
+# for i in range(0,5,1):
+#     print(a[i])
+    
+# a = "HELLO MY NAME IS AARTI JHA"
+# print(len(a))
+# for i in range (0,26,1):
+#     print(a[i])
+
+#  #or
+
+# a = "HELLO MY NAME IS AARTI JHA"
+# print(len(a))
+# for i in range (len(a)):
+#     print(a[i])
+
+# a = "AARTI"
+# for i in a:
+#     print(i)
+
+# break
+
+# for i in range (1,21,1):
+#     if(i==15):
+#         break
+#     else:
+#         print(i)
+
+# for i in range (1,21,1):
+#     if(i==15):
+#         continue
+#     print(i)
+
+# for i in range (1,21,1):
+#     if i == 15:
+#         print("break statement is executed")
+#         break
+#     print(i)
+    
+# else:
+#     print("break staement is not executed")
+       
+# for i in range (1,21,1):
+#     if i == 56:
+#         print("break statement is executed")
+#         break
+#     print(i)
+    
+# else:
+#     print("break staement is not executed")
+
+ # break - run , else - will not run
+ # break - will not run , else - will run
+ 
+ # loop questions
+ 
+# n = int(input("please tell you number"))
+
+# for i in range(n):
+#     print("HELLO WORLD")
+
+# n = int(input("please tell your number"))
+# for i in range(1,n+1,1):
+#     print(i)
+
+# n = int(input("please tell your number"))
+# for i in range(n,0,-1):
+#     print(i)
+
+# n = int(input("which table you want"))
+# for i in range(n,(n*10)+1,n):
+#     print(i)
+
+#  or
+
+# n = int(input("which table you want"))
+
+# for i in range (1,11,1):
+#     print(f"{n} * {i} = {n*i}")
+
+# n = int(input("pleae tell your number"))
+# sum = 0
+# for i in range(1,n+1):
+#     sum = sum + i
+# print(sum)
+    
+# n = int(input("please tell your number"))
+
+# fact = 1
+
+# for i in range(1,n+1):
+#     fact = fact*i
+    
+    
+# print(f"your factorial is {fact}")
+
+
+
+
+       
+
+    
+
 
 
 
