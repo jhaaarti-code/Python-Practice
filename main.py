@@ -472,6 +472,100 @@
     
 # print(f"your factorial is {fact}")
 
+# n = int(input("tell your number"))
+# even = 0
+# odd = 0
+# for i in range(1,n+1):
+#     if(i%2==0):
+#         even = even + i
+        
+#     else:
+#         odd = odd + i
+        
+# print(f"your even and odd sum are {even} , {odd}")
+
+# n = int(input("which number factor do you want"))
+# for i in range(1,n+1):
+#     if(n%i==0):
+#         print(i)
+
+# n = int(input("check your nmber is perfect or not"))
+# sum = 0
+# for i in range(1,n):
+#     if(n%i==0):
+#         sum = sum + i
+        
+# if(sum==n):
+#     print("number is perfect")
+    
+# else:
+#     print("number is not perfect")
+
+# n = int(input("check your number is prime or not"))
+
+# count = 0
+
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count = count + 1
+        
+# if count == 2:
+#     print("your number is prime")
+    
+# else:
+#     print("number is not prime")
+
+# a = "AARTI"
+# print(a[::-1])
+
+# CONCATENATION
+
+# a = "SHERYIANS"
+
+# b = " is cool "
+
+# print(a+b)
+
+# a = "SHERYIANS"
+# b = ""
+
+# for i in range (len(a)-1,-1,-1):
+#     b = b + a[i]
+    
+# print(b)
+
+# Palindrome
+# a = "SHERYIANS"
+# b = ""
+# for i in range(len(a)-1,-1,-1):
+#     b = b + a[i]
+    
+# if b ==a :
+#     print("your string is palindrome")
+    
+# else:
+#     print("your string is not palindrome")
+
+a = "NAMAN"
+b = ""
+for i in range(len(a)-1,-1,-1):
+    b = b + a[i]
+    
+if b ==a :
+    print("your string is palindrome")
+    
+else:
+    print("your string is not palindrome")
+
+
+
+
+
+        
+        
+    
+    
+
 
 
 
