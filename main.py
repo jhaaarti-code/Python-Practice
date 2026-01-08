@@ -29,7 +29,7 @@
 # v = 24j
 # print (type(v))
 
-# #tring
+# #string
 # #anything that are available in our keyboard is called string
 
 # st = '123445566765 dsgsrehddtdf &*5/#@!$'
@@ -54,7 +54,7 @@
 # a = 65
 # print (chr(a))
 
-# #string indexing
+#string indexing
 # a = "SHER"
 # print(a[1])
 # print(a[1],a[-3])
@@ -546,16 +546,182 @@
 # else:
 #     print("your string is not palindrome")
 
-a = "NAMAN"
-b = ""
-for i in range(len(a)-1,-1,-1):
-    b = b + a[i]
+# a = "NAMAN"
+# b = ""
+# for i in range(len(a)-1,-1,-1):
+#     b = b + a[i]
     
-if b ==a :
-    print("your string is palindrome")
+# if b ==a :
+#     print("your string is palindrome")
     
-else:
-    print("your string is not palindrome")
+# else:
+#     print("your string is not palindrome")
+
+# count all letter , digits and special symbols from a string
+
+# a = "sdfgsogn12413@#!4^&*"
+# char = 0
+# dig = 0
+# spchr = 0
+
+# for i in a:
+#     if i.isdigit():
+#         dig +=1
+        
+#     elif i.isalpha():
+#         char +=1
+        
+#     else:
+#         spchr +=1
+        
+# print(f"your digits are {dig} \n your character are {char} \n your special character {spchr}")
+
+#  While loop
+
+# a = 1
+# while a <= 30:
+#     print(a)
+#     a = a + 1
+
+# a = 256 
+# while a > 0:
+#     print(a%10)
+#     a = a // 10
+
+# a = int(input("tell your number")) 
+# while a > 0:
+#     print(a%10)
+#     a = a // 10
+
+# a = int(input("tell your number")) 
+# rev = 0
+# while a > 0:
+#     rev = rev * 10 + (a % 10)
+#     a = a // 10
+    
+# print(rev)
+
+# a = int(input("tell your number")) 
+# copy = a
+# rev = 0
+# while a > 0:
+#     rev = rev * 10 + (a % 10)
+#     a = a // 10
+    
+# if copy == rev:
+#     print("pallindromic number")
+    
+# else:
+#     print("not a pallindromic number")
+
+# create a random number guessing game with python
+
+# import random
+# num = random.randint(1,10)
+# tries = 0
+# while True:
+#   guess = int(input("please guess your number"))
+
+#   if num == guess:
+#         tries +=1
+#         print(f"you are right you guessed the number in {tries} tries")
+#         break
+        
+        
+#   elif num < guess:
+#         print("go a little lower")
+#         tries +=1
+        
+#   elif num > guess:
+#         print("go a little higher")
+#         tries +=1
+    
+    
+# else:
+#     tries +=1
+#     print("sorry you are wrong")
+
+# create a random number guessing game with python
+
+# import random
+
+# num = random.randint(1,50)
+# tries = 0
+# while True:
+#  guess = int(input("please guess your number"))
+
+#  if(num == guess):
+#      print(f"you are right you guessed the number in {tries} tries")
+#      tries +=1
+#      break
+    
+#  elif num < guess:
+#     print ("go a little lower")
+#     tries +=1
+    
+#  elif num > guess:
+#     print("go a little higher")
+#     tries +=1
+    
+# else:
+#     print("you are wrong")
+#     tries +=1
+
+# Functions
+
+# print("hello how are you")
+
+#  creating a function - ue def keyword and then write function name
+
+# def hello():
+#     print("this is a hello function so i am doing hello")
+    
+# hello()
+
+#  the thing you accept is parameter
+#  the thing you provide to parameters is called arguments
+
+# positional argument
+# def sum(a,b): here a,b is parameter
+#     print(f"the sum of your number is {a+b}")
+    
+# sum(12,12) : here 12,12 is arguments
+# sum(45,45) : here 45,45 is arguments
+
+# def hello(name,age):
+#     print(f"your name is {name} and your age is {age}")
+    
+# hello("Aarti" , 20)
+
+# def hello(name,age):
+#     print(f"your name is {name} and your age is {age}")
+    
+# hello(age = 20, name = "Aarti") keyword argument
+
+# def sum (a,b=45):
+#     print(f"the sum is {a+b}")
+    
+# sum(12)
+
+# def sum (a,b=45): default argument
+#     print(f"the sum is {a+b}")
+    
+# sum(12,27)
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
 
 
 
