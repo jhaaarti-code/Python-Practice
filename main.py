@@ -62,7 +62,7 @@
 # #string slicing
 
 # a = "SHER CODER"
-# print(a[0:4:1])
+# # print(a[0:4:1])
 # print(a[5::1])
 
 # #type conversion
@@ -100,8 +100,8 @@
 
 #  # accept number from a user
 
-# #number = input ("give me a number")
-# #print(number)
+# number = input ("give me a number")
+# print(number)
 
 # # accept age from the user and print it
 
@@ -118,7 +118,7 @@
 
 # a = 5
 # b = 20
-# print(b/a)
+# # print(b/a)
 # print(b//a) # floor value
 
 # a = 5
@@ -489,7 +489,7 @@
 #     if(n%i==0):
 #         print(i)
 
-# n = int(input("check your nmber is perfect or not"))
+# n = int(input("check your number is perfect or not"))
 # sum = 0
 # for i in range(1,n):
 #     if(n%i==0):
@@ -671,7 +671,7 @@
 
 # print("hello how are you")
 
-#  creating a function - ue def keyword and then write function name
+#  creating a function - use def keyword and then write function name
 
 # def hello():
 #     print("this is a hello function so i am doing hello")
@@ -707,6 +707,32 @@
 #     print(f"the sum is {a+b}")
     
 # sum(12,27)
+
+# def pallindrome (st):
+#     rev = ""
+#     for i in range(len(st)-1,-1,-1):
+#         rev = rev + st[i]
+        
+#     if rev == st:
+#         print("pallindrome")
+        
+#     else:
+#         print("not a pallindrome")
+        
+# pallindrome("NAMAN")
+# pallindrome("CURSOR")
+
+# def hello():
+#     print("hello how are you")
+    
+# hello()
+
+# def hello():
+#     return "hello how are you"
+    
+# print(hello())
+
+
 
 
 
