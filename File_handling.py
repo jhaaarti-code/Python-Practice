@@ -42,3 +42,5 @@
 # f = open("file.txt","w")
 # f.write("this is a new file")
 # f.close()
+
+#  now lets create a bsic file andling project
