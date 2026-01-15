@@ -227,6 +227,243 @@
 #     def __init__(self,material,zipsc,colour,pockets):
 #         super().__init__(material,zips,colour)
 #         self.pockets = pockets
+
+# Polymorphism
+
+# def show ():
+#     print("how are you")
+    
+# def show():
+#     print("you are best")
+    
+# show()
+
+# Method overriding - if you have one class and that is a parent class and you have another class that is a child class parent class and child class have a method that is same. Now if the object is calling the method the method will be called of child class 
+
+# class Animal:
+#     def show2(self):
+#         print("hello i am Aarti")
+        
+# class Human(Animal):
+#     def show(self):
+#         print("how are you")
+        
+# obj = Human()
+# obj.show2()
+# obj.show()
+
+# Duck typing
+
+# class Animal:
+#     def show(self):
+#         print("I am showing")
+        
+# class Human:
+#     def show(self):
+#         print("Hello i am also showing")
+        
+# obj = Animal()
+# obj2 = Human()
+
+# obj.show()
+# obj2.show()
+
+# Encapsulation
+
+# public attributes and methods
+
+# class Factory:
+#     a = "pune"
+    
+#     def show(self):
+#         print("hello i am a pune factory")
+        
+# class Bhopal(Factory):
+#     def show2(self):
+#         print(super().a)
+        
+# obj = Bhopal()
+# obj.show2()
+        
+# protected attributes and methods -: doesn't work in python
+
+# class Factory:
+#     _a = "pune"
+    
+#     def _show(self):
+#         print("hello i am a pune factory")
+        
+# class Bhopal(Factory):
+#     def show2(self):
+#         print(super()._a)
+        
+# obj = Bhopal()
+# obj.show2()
+
+# private attribute -: use double underscore
+
+# class Factory:
+#    __a = "pune"
+    
+#    def __show(self):
+#         print("hello i am a pune factory")
+        
+# class Bhopal(Factory):
+#     def show2(self):
+#         print(super().__a)
+        
+# obj = Bhopal()
+# obj.show2()
+
+# class Factory:
+#    __a = "pune"
+    
+#    def __show(self):
+#         print("hello i am a pune factory")
+        
+# obj = Factory()
+# obj.__show()
+
+# class Factory:
+#    __a = "pune"
+    
+#    def show(self):
+#         print(Factory.__a)
+        
+# obj = Factory()
+# obj.show()
+
+# Abstraction -: if u want to set up some rules then we use abstraction.
+
+# from abc import ABC, abstractmethod
+
+# class abstract(ABC):
+#         @abstractmethod
+#         def perimeter(self):
+#                 pass
+        
+#         @abstractmethod
+#         def area (self):
+#                 pass
+        
+# class Square (abstract):
+#         def __init__(self,side):
+#                 self.side = side
+                
+#         def perimeter(self):
+#                 print("I have created")
+                
+#         def Area(self):
+#                 print("I have created too")
+                
+# class Circle (abstract):
+#         def __init__(self,radius):
+#                 self.radius = radius
+                
+#         def perimeter(self):
+#                 print("I have created")
+                
+#         def Area(self):
+#                 print("I have created too")
+                
+# obj = Circle(7)
+# obj2 = square()
+
+# Dunder methods -: special methods in python that start and end with double under score like, __init__, __str__,__add__,etc
+
+# class Animal:
+#         def __init__(self,name,age):
+#                 self.name = name
+#                 self.age = age
+                
+#         def __str__(self):
+#                 return f"Hello how are you and your name is {self.name}"
+        
+#         def __add__(self,other):
+#                 return f"your sum of ages are {self.age + other.age}"
+                
+# obj = Animal("lion" , 12)
+# obj2 = Animal("Dolphin" , 14)
+
+# print(obj+obj2)
+
+# Advance stuff
+
+# Decorator
+
+# class Animal:
+#         @property
+#         def show(self):
+#                 print("Hello how are you")
+                
+# obj = Animal()
+# obj.show
+
+# def decorate(func):
+#         def wrapper():
+#                 print("I will print myself before the function hello")
+#                 func()
+#                 print("I will print after the function")
+#         return wrapper
+
+# @decorate
+# def hello():
+#         print("Hello i am Aarti jha")
+        
+# hello()
+
+
+# Addition(12,12)
+
+# def Addition(*args):
+#         print(args)
+        
+# Addition(12,12,23,56)
+
+# def Addition(*args):
+#         sum = 0
+#         for i in args:
+#                 sum = sum + i
+                
+#         print(sum)
+        # def decorate(func):
+#         def wrapper(a,b):
+#                 print("the addition to your numbers are")
+#                 func(a,b)
+#                 print("thankyou i hope you liked it")
+#         return wrapper
+
+# @decorate
+# def addition(a,b):
+#         print(f"your total is {a + b}")
+        
+# addition(12,67)
+
+
+# def Addition(a,b):
+#         print(a + b)
+        
+# Addition(12,12,23,56)
+
+# def information(**kwargs):
+#         print("your information is\n\n ")
+#         for i in kwargs:
+#             print(f"{i} : {kwargs[i]}")
+            
+# information(Name = "Aarti", age = 20, designation = "AI/ML")
+                
+        
+        
+
+
+
+
+
+    
+        
+
+
+    
     
 
 
